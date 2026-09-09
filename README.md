@@ -42,3 +42,4 @@ Após o sensor deixar de detectar movimento, a luz permanece ligada por
 
 Este projeto foi utilizado para aplicar conceitos de programação,
 eletrônica e automação.
+
