@@ -20,7 +20,7 @@ O sistema utiliza sensores de presença para controlar as lâmpadas:
 
 Enquanto o sensor detectar presença, a iluminação permanece ligada.
 Após o sensor deixar de detectar movimento, a luz permanece ligada por
-5 segundos e então é desligada.
+10 segundos e então é desligada.
 
 ## Componentes
 
