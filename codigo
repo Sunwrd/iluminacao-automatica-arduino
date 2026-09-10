@@ -1,5 +1,4 @@
 ##iliminação_automatica
-
 void setup() {
  
   pinMode(sensor1, INPUT);
@@ -42,7 +41,7 @@ void loop() {
     unsigned long tempoLigado = agora - inicioLed1;
     unsigned long tempoSemMovimento = agora - ultimoMovimento1;
  
-    if (tempoLigado >= 10000 && tempoSemMovimento >= 5000) {
+    if (tempoLigado >= 5000 && tempoSemMovimento >= 5000) {
  
   	digitalWrite(led1, LCódigo utilizado no circuito da maquete:
 const int sensor1 = 12;
@@ -97,7 +96,7 @@ OW);
 	unsigned long tempoLigado = agora - inicioLed2;
 	unsigned long tempoSemMovimento = agora - ultimoMovimento2;
  
-    if (tempoLigado >= 10000 && tempoSemMovimento >= 5000) {
+    if (tempoLigado >= 5000 && tempoSemMovimento >= 5000) {
  
   	digitalWrite(led2, LOW);
   	ledLigado2 = false;
@@ -129,7 +128,7 @@ OW);
     unsigned long tempoLigado = agora - inicioLed3;
     unsigned long tempoSemMovimento = agora - ultimoMovimento3;
  
-    if (tempoLigado >= 10000 && tempoSemMovimento >= 5000) {
+    if (tempoLigado >= 5000 && tempoSemMovimento >= 5000) {
  
   	digitalWrite(led3a, LOW);
   	digitalWrite(led3b, LOW);
