@@ -1,5 +1,4 @@
 ##iliminação_automatica
-
 void setup() {
  
   pinMode(sensor1, INPUT);
